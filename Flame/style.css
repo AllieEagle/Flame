@@ -1,0 +1,19 @@
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+.flame{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(-45deg, crimson, orange);
+    transform: rotate(-135deg);
+    filter: blur(1px);
+    border-radius: 50% 50% 0 50%;
+    box-shadow: 20px 20px 20px darkred;
+    border: 25px solid rgb(0, 0, 0);
+}
